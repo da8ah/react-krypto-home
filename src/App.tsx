@@ -1,5 +1,5 @@
-import Navbar from "@/components/Navbar";
 import HeroButton from "@/components/HeroButton";
+import Navbar from "@/components/Navbar";
 
 export default function App() {
 	return (
@@ -18,15 +18,18 @@ export default function App() {
 				<circle fill="url('#myGradient')" cx={100} cy={10} r={1000} />
 			</svg>
 			<Navbar />
-			<main id="hero" className="w-full items-center px-20">
-				<div className="mt-16 md:flex md:items-center">
-					<div className="w-[50%] items-center">
-						<h1 className="text-5xl md:text-7xl font-bold">
+			<main
+				id="hero"
+				className="w-full items-center md:px-20 text-center md:text-left"
+			>
+				<div className="flex flex-col-reverse md:flex-row mt-16 items-center">
+					<div className="w-full md:w-[50%] items-center">
+						<h1 className="text-3xl md:text-7xl  font-bold">
 							Discover
-							<br /> And Collect
+							<br className="hidden md:block" /> And Collect
 							<br /> Rare NFTs
 						</h1>
-						<p className="my-10">
+						<p className="my-5 md:my-10">
 							The most secure marketplace for buying <br />
 							and selling unique crypto assets.
 						</p>
@@ -35,11 +38,11 @@ export default function App() {
 							<HeroButton outlined>SELL NFTs</HeroButton>
 						</div>
 					</div>
-					<div className="w-[50%] justify-items-end">
+					<div className="flex w-full md:w-[50%] justify-center">
 						<img
-							className="object-contain"
+							className="object-contain w-[20%] md:w-full"
 							src="src/assets/img-1.png"
-							alt="A PC colorful graphic"
+							alt="A colorful PC graphic"
 						/>
 					</div>
 				</div>
