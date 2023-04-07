@@ -8,7 +8,10 @@ const Navbar: FC = () => {
 	return (
 		<nav className='bg-transparent w-full items-center pt-2 md:pt-10 md:px-20 md:flex md:items-center md:justify-between'>
 			<div className="w-full px-5 pb-5 flex items-center justify-between">
-				<a href="" className="text-white text-4xl uppercase no-underline">
+				<a
+					href=""
+					className="text-white text-4xl font-bold uppercase no-underline"
+				>
 					Krypto
 				</a>
 				{isMenuOpen ? (
