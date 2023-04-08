@@ -33,7 +33,7 @@ export default function App() {
 				<circle fill="url('#right-gradient')" cx={50} cy={100} r={1000} />
 			</svg>
 			<main className="w-full items-center md:px-20 text-center md:text-left">
-				<section id="hero" className="w-full my-28 items-center">
+				<section id="hero" className="w-full my-20 md:my-28 items-center">
 					<div className="flex flex-col-reverse md:flex-row mt-16 items-center">
 						<div className="w-full md:w-[50%] items-center">
 							<h1 className="text-3xl md:text-7xl  font-bold">
@@ -59,10 +59,13 @@ export default function App() {
 						</div>
 					</div>
 				</section>
-				<section id="brands" className="w-full my-28 items-center">
+				<section
+					id="brands"
+					className="hidden md:block w-full my-28 items-center"
+				>
 					<h2 className="my-5 text-1xl font-bold">FEATURED ON</h2>
 					<div className="w-full rounded-md p-5 bg-[#261F64] bg-opacity-20 shadow">
-						<ul className="w-full h-full flex items-center justify-around md:bg-transparent shadow md:shadow-none">
+						<ul className="w-full h-full flex items-center px-2 justify-between md:bg-transparent shadow md:shadow-none">
 							<li>
 								<img
 									className="object-contain w-[20%] md:w-full"
@@ -94,8 +97,8 @@ export default function App() {
 						</ul>
 					</div>
 				</section>
-				<section id="features" className="w-full my-28 items-center">
-					<div className="flex flex-col-reverse md:flex-row mt-16 items-center">
+				<section id="features" className="w-full md:my-28 items-center">
+					<div className="flex flex-col md:flex-row mt-16 items-center">
 						<div className="flex w-full md:w-[50%] justify-center">
 							<img
 								className="object-contain w-[20%] md:w-full"
@@ -123,8 +126,8 @@ export default function App() {
 							</div>
 						</div>
 					</div>
-					<div className="flex flex-col-reverse md:flex-row items-center">
-						<div className="w-full pl-16 md:w-[50%] items-center">
+					<div className="mt-20 md:mt-0 flex flex-col-reverse md:flex-row items-center">
+						<div className="w-full md:pl-16 md:w-[50%] items-center">
 							<h2 className="text-3xl my-5">Get our App</h2>
 							<h1 className="text-3xl md:text-5xl font-bold">
 								Browse NFTs From <br className="hidden md:block" /> Your
@@ -146,6 +149,65 @@ export default function App() {
 								src="src/assets/img-3.png"
 								alt="A colorful PC graphic"
 							/>
+						</div>
+					</div>
+				</section>
+				<section id="testimonials" className="w-full my-28 items-center">
+					<h2 className="w-full my-5 text-center tracking-widest text-1xl font-bold">
+						TESTIMONIALS
+					</h2>
+					<h1 className="my-2 md:mb-16 w-full text-center text-3xl md:text-5xl font-bold">
+						Read What Others <br />
+						Have To Say
+					</h1>
+					<div className="flex flex-col md:flex-row justify-center">
+						<div className="flex flex-col md:w-[30%] mx-1 items-center">
+							<img
+								className="mix-blend-luminosity rounded-full object-contain my-5 md:w-[40%]"
+								src="src/assets/pfp-1.png"
+								alt="A colorful PC graphic"
+							/>
+							<div className="lg:mt-[-80px] md:mt-[-50px] rounded-lg p-5 bg-white bg-opacity-[3%]">
+								<h3 className="lg:mt-16 md:mt-10 my-1 text-2xl text-center tracking-widest uppercase">
+									Olivia Cole
+								</h3>
+								<p className="lg:p-7 text-justify">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+									ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+								</p>
+							</div>
+						</div>
+						<div className="flex flex-col md:w-[30%] mx-1 items-center">
+							<img
+								className="mix-blend-luminosity rounded-full object-contain my-5 md:w-[40%]"
+								src="src/assets/pfp-2.png"
+								alt="A colorful PC graphic"
+							/>
+							<div className="lg:mt-[-80px] md:mt-[-50px] rounded-lg p-5 bg-white bg-opacity-[3%]">
+								<h3 className="lg:mt-16 md:mt-10 my-1 text-2xl text-center tracking-widest uppercase">
+									Evan White
+								</h3>
+								<p className="lg:p-7 text-justify">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+									ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+								</p>
+							</div>
+						</div>
+						<div className="flex flex-col md:w-[30%] mx-1 items-center">
+							<img
+								className="mix-blend-luminosity rounded-full object-contain my-5 md:w-[40%]"
+								src="src/assets/pfp-3.png"
+								alt="A colorful PC graphic"
+							/>
+							<div className="lg:mt-[-80px] md:mt-[-50px] rounded-lg p-5 bg-white bg-opacity-[3%]">
+								<h3 className="lg:mt-16 md:mt-10 my-1 text-2xl truncate text-center tracking-widest uppercase">
+									Jessica Page
+								</h3>
+								<p className="lg:p-7 text-justify">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+									ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+								</p>
+							</div>
 						</div>
 					</div>
 				</section>
