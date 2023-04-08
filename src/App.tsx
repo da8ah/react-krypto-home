@@ -163,15 +163,15 @@ export default function App() {
 					<div className="flex flex-col md:flex-row justify-center">
 						<div className="flex flex-col md:w-[30%] mx-1 items-center">
 							<img
-								className="mix-blend-luminosity rounded-full object-contain my-5 md:w-[40%]"
+								className="mix-blend-luminosity rounded-full object-contain mt-5 md:w-[40%]"
 								src="src/assets/pfp-1.png"
 								alt="A colorful PC graphic"
 							/>
-							<div className="lg:mt-[-80px] md:mt-[-50px] rounded-lg p-5 bg-white bg-opacity-[3%]">
+							<div className="lg:mt-[-50px] md:mt-[-50px] rounded-lg p-5 md:bg-white md:bg-opacity-[3%]">
 								<h3 className="lg:mt-16 md:mt-10 my-1 text-2xl text-center tracking-widest uppercase">
 									Olivia Cole
 								</h3>
-								<p className="lg:p-7 text-justify">
+								<p className="px-10 md:px-0 lg:p-7 text-justify">
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
 									ullamcorper scelerisque mi, in malesuada felis malesuada vel.
 								</p>
@@ -179,15 +179,15 @@ export default function App() {
 						</div>
 						<div className="flex flex-col md:w-[30%] mx-1 items-center">
 							<img
-								className="mix-blend-luminosity rounded-full object-contain my-5 md:w-[40%]"
+								className="mix-blend-luminosity rounded-full object-contain mt-5 md:w-[40%]"
 								src="src/assets/pfp-2.png"
 								alt="A colorful PC graphic"
 							/>
-							<div className="lg:mt-[-80px] md:mt-[-50px] rounded-lg p-5 bg-white bg-opacity-[3%]">
+							<div className="lg:mt-[-50px] md:mt-[-50px] rounded-lg p-5 md:bg-white md:bg-opacity-[3%]">
 								<h3 className="lg:mt-16 md:mt-10 my-1 text-2xl text-center tracking-widest uppercase">
 									Evan White
 								</h3>
-								<p className="lg:p-7 text-justify">
+								<p className="px-10 md:px-0 lg:p-7 text-justify">
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
 									ullamcorper scelerisque mi, in malesuada felis malesuada vel.
 								</p>
@@ -195,15 +195,15 @@ export default function App() {
 						</div>
 						<div className="flex flex-col md:w-[30%] mx-1 items-center">
 							<img
-								className="mix-blend-luminosity rounded-full object-contain my-5 md:w-[40%]"
+								className="mix-blend-luminosity rounded-full object-contain mt-5 md:w-[40%]"
 								src="src/assets/pfp-3.png"
 								alt="A colorful PC graphic"
 							/>
-							<div className="lg:mt-[-80px] md:mt-[-50px] rounded-lg p-5 bg-white bg-opacity-[3%]">
+							<div className="lg:mt-[-50px] md:mt-[-50px] rounded-lg p-5 md:bg-white md:bg-opacity-[3%]">
 								<h3 className="lg:mt-16 md:mt-10 my-1 text-2xl truncate text-center tracking-widest uppercase">
 									Jessica Page
 								</h3>
-								<p className="lg:p-7 text-justify">
+								<p className="px-10 md:px-0 lg:p-7 text-justify">
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
 									ullamcorper scelerisque mi, in malesuada felis malesuada vel.
 								</p>
