@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+footer li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

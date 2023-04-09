@@ -6,7 +6,7 @@ const Navbar: FC = () => {
 	const [isMenuOpen, setMenuState] = useState<boolean>(false);
 
 	return (
-		<nav className='bg-transparent w-full items-center pt-2 md:pt-10 md:px-20 md:flex md:items-center md:justify-between'>
+		<nav className='fixed top-0 bg-[#01003C] md:relative md:bg-transparent w-full items-center pt-2 md:pt-10 md:px-20 md:flex md:items-center md:justify-between'>
 			<div className="w-full px-5 pb-5 flex items-center justify-between">
 				<a
 					href=""
@@ -31,7 +31,7 @@ const Navbar: FC = () => {
 			<ul
 				id="nabvar-items"
 				hidden={!isMenuOpen}
-				className="w-full md:flex md:items-center md:static absolute bg-[#01003C] bg-opacity-90 md:bg-transparent shadow md:shadow-none"
+				className="w-full top-18 md:flex md:items-center md:static absolute bg-[#01003C] md:bg-transparent shadow md:shadow-none"
 			>
 				<li className="mx-4">
 					<NavbarButton>About</NavbarButton>
