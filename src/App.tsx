@@ -53,7 +53,7 @@ export default function App() {
 						<div className="flex w-full md:w-[50%] justify-center">
 							<img
 								className="object-contain w-[20%] md:w-full"
-								src="src/assets/img-1.png"
+								src="img-1.png"
 								alt="A colorful PC graphic"
 							/>
 						</div>
@@ -69,28 +69,28 @@ export default function App() {
 							<li>
 								<img
 									className="object-contain w-[20%] md:w-full"
-									src="src/assets/brand-1.png"
+									src="brand-1.png"
 									alt="tech crunch brand"
 								/>
 							</li>
 							<li>
 								<img
 									className="object-contain w-[20%] md:w-full"
-									src="src/assets/brand-2.png"
+									src="brand-2.png"
 									alt="fast company brand"
 								/>
 							</li>
 							<li>
 								<img
 									className="object-contain w-[20%] md:w-full"
-									src="src/assets/brand-3.png"
+									src="brand-3.png"
 									alt="M.I.T brand"
 								/>
 							</li>
 							<li>
 								<img
 									className="object-contain w-[20%] md:w-full"
-									src="src/assets/brand-4.png"
+									src="brand-4.png"
 									alt="forbes brand"
 								/>
 							</li>
@@ -102,7 +102,7 @@ export default function App() {
 						<div className="flex w-full md:w-[50%] justify-center">
 							<img
 								className="object-contain w-[20%] md:w-full"
-								src="src/assets/img-2.png"
+								src="img-2.png"
 								alt="A colorful PC graphic"
 							/>
 						</div>
@@ -147,7 +147,7 @@ export default function App() {
 						<div className="flex w-full md:w-[50%] justify-center">
 							<img
 								className="object-contain w-[20%] md:w-full"
-								src="src/assets/img-3.png"
+								src="img-3.png"
 								alt="A colorful PC graphic"
 							/>
 						</div>
@@ -165,7 +165,7 @@ export default function App() {
 						<div className="flex flex-col md:w-[30%] mx-1 items-center">
 							<img
 								className="mix-blend-luminosity rounded-full object-contain mt-5 md:w-[40%]"
-								src="src/assets/pfp-1.png"
+								src="pfp-1.png"
 								alt="A colorful PC graphic"
 							/>
 							<div className="lg:mt-[-50px] md:mt-[-50px] rounded-lg p-5 md:bg-white md:bg-opacity-[3%]">
@@ -181,7 +181,7 @@ export default function App() {
 						<div className="flex flex-col md:w-[30%] mx-1 items-center">
 							<img
 								className="mix-blend-luminosity rounded-full object-contain mt-5 md:w-[40%]"
-								src="src/assets/pfp-2.png"
+								src="pfp-2.png"
 								alt="A colorful PC graphic"
 							/>
 							<div className="lg:mt-[-50px] md:mt-[-50px] rounded-lg p-5 md:bg-white md:bg-opacity-[3%]">
@@ -197,7 +197,7 @@ export default function App() {
 						<div className="flex flex-col md:w-[30%] mx-1 items-center">
 							<img
 								className="mix-blend-luminosity rounded-full object-contain mt-5 md:w-[40%]"
-								src="src/assets/pfp-3.png"
+								src="pfp-3.png"
 								alt="A colorful PC graphic"
 							/>
 							<div className="lg:mt-[-50px] md:mt-[-50px] rounded-lg p-5 md:bg-white md:bg-opacity-[3%]">

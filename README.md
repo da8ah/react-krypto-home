@@ -15,11 +15,15 @@ Simple Home Page
 
 ## Descripción
 
-En este proyecto se diseñó una página web utilizando [Figma](figma.com) para posteriormente traducir el diseño a código de React y [Tailwind](https://tailwindcss.com/docs/guides/vite). Esto permitió crear un diseño web responsivo que se adapta a las pantallas de los distintos dispositivos desde los cuales se visualiza la página web. El diseño de la página web se lo hizo con la guía de [Flux Academy: Figma Tutorial - YouTube](https://www.youtube.com/watch?v=HZuk6Wkx_Eg) para crear un diseño web moderno y de calidad profesional. Descarga el diseño [Figma: KRYPTO aquí](./doc/krypto.fig)
+En este proyecto se diseñó una página web utilizando [Figma](figma.com) para posteriormente traducir el diseño a código de React y [Tailwind](https://tailwindcss.com/docs/guides/vite). Esto permitió crear un diseño web responsivo que se adapta a las pantallas de los distintos dispositivos desde los cuales se visualiza la página web. El diseño de la página web se lo hizo con la guía de [Flux Academy: Figma Tutorial - YouTube](https://www.youtube.com/watch?v=HZuk6Wkx_Eg) para crear un diseño web moderno y de calidad profesional.
 
 <div align="center">
 <img style="width:50%" src="./doc/krypto.png" >
 </div>
+
+🚀 Visualiza el demo de Krypto [aquí](https://da8ah.github.io/react-krypto-home/)
+
+📂 Descarga el diseño en Figma [aquí](./doc/krypto.fig)
 
 ## Instalación
 
