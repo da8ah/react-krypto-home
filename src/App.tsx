@@ -134,7 +134,8 @@ export default function App() {
 								Smartphone
 							</h1>
 							<p className="my-5 md:my-10">
-								Our Krypto app is the easiest way to keep track of your <br />
+								Our Krypto app is the easiest way to keep track of your{" "}
+								<br className="hidden md:block" />
 								assets when you’re on the go.
 							</p>
 							<div className="w-full md:flex md:items-center">
